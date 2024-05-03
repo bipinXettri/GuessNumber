@@ -1,0 +1,49 @@
+body{
+  background-image: linear-gradient(to right,Skyblue, yellow);
+}
+.container {
+  
+  height:450px;
+  
+  width: 400px;
+  text-align: center;
+  margin: auto;
+}
+#numGuess{
+  border: 3px solid lightgray;
+  border-radius: 3px;
+  color: palevioletred;
+  height: 30px;
+}
+#btn{
+  background: skyblue;
+  border: none;
+  height: 30px;
+  border-radius: 3px;
+}
+/* Default styles */
+body {
+    font-size: 16px;
+    color: black;
+}
+
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Media query for screens between 600px and 900px */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Media query for screens larger than 1200px */
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+}
